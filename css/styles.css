@@ -115,6 +115,10 @@ footer {
 .w730{
     width: 730px;
 }
+.scr {
+    font-weight:lighter;
+    color: var(--text-secondary);
+}
 
 
 /*------------TEMP-------------*/
@@ -278,7 +282,7 @@ body {
 /*---SCROLL CONTAINER---*/
 .scroll-container {
     width: 100%;
-    height: 500px;
+    height: 650px;
     max-width: 1200px;
     overflow: hidden;
     scroll-behavior: auto;
@@ -299,22 +303,23 @@ body {
 
 /*--------- Product Specific -- Risk management---*/
 .users {
-    
-    border: solid #333;
-   
-    width: 400px;
     display: flex;
     flex-direction: row;
 }
 .users p {
     white-space: normal;
     width: 600px;
-    padding-right: var(--sp40);
+    padding-right: 100px;
 }
 .users img {
     white-space:normal;
     width: 927px;
 
+}
+.users .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
