@@ -179,6 +179,24 @@ body {
     margin-right: 0px;
 }
 
+.listblock {
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 100px;
+    box-shadow: -3px -3px 10px rgb(255, 255, 255), 3px 3px 5px rgba(0, 0, 0, 10%);
+}
+
+.listblock ul {
+    list-style-image: url('../img/list.svg');
+    line-height: 24px;
+    color: var(--secondary-color);
+    font-size: 16px;
+}
+.listblock ul li {
+    padding-left: 15px;
+    padding-bottom: 16px;
+}
+
 /* ------- MAIN PAGE -----*/
 .intro {
     display: flex;
@@ -318,8 +336,6 @@ body {
 }
 .users p {
     white-space: normal;
-    width: 600px;
-    padding-right: 100px;
 }
 .users > .preview {
     white-space:normal;
