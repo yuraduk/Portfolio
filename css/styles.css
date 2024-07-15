@@ -321,7 +321,7 @@ body {
     width: 600px;
     padding-right: 100px;
 }
-.users img {
+.users > .preview {
     white-space:normal;
     width: 927px;
 
