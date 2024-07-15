@@ -118,6 +118,16 @@ footer {
 .scr {
     font-weight:lighter;
     color: var(--text-secondary);
+    list-style-type: none;
+}
+.scr li {
+    display: inline;
+}
+.scr li img {
+    width: 25px;
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
