@@ -13,7 +13,7 @@
     --bg-color: #F1F1F1;
     --link-color: #1891E8;
     --sp40: 40px;
-    --sp80: 80px;
+    --sp80: 150px;
     --sp300: 300px;
 }
 
@@ -113,7 +113,7 @@ footer {
     height: 24px;
 }
 .w730{
-    width: 730px;
+    width: 780px;
 }
 .scr {
     font-weight:lighter;
@@ -196,6 +196,17 @@ body {
     padding-left: 15px;
     padding-bottom: 16px;
 }
+
+.summary {
+    text-align: center;
+}
+.summary h4 {
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+
 
 /* ------- MAIN PAGE -----*/
 .intro {
